@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<scholarships>
+
+    <scholarship>
+
+        <id>1</id>
+
+        <name>ABC Merit Scholarship</name>
+
+        <provider>ABC Educational Trust</provider>
+
+        <minPercentage>80</minPercentage>
+
+        <maxIncome>500000</maxIncome>
+
+        <course>BE</course>
+
+        <department>ALL</department>
+
+        <community>ALL</community>
+
+        <benefit>50000</benefit>
+
+        <description>
+            Merit based scholarship for engineering students
+            with strong academic performance.
+        </description>
+
+    </scholarship>
+
+
+    <scholarship>
+
+        <id>2</id>
+
+        <name>XYZ Financial Support Scholarship</name>
+
+        <provider>XYZ Foundation</provider>
+
+        <minPercentage>60</minPercentage>
+
+        <maxIncome>300000</maxIncome>
+
+        <course>BE</course>
+
+        <department>ALL</department>
+
+        <community>ALL</community>
+
+        <benefit>30000</benefit>
+
+        <description>
+            Financial assistance for students from
+            lower income families.
+        </description>
+
+    </scholarship>
+
+
+    <scholarship>
+
+        <id>3</id>
+
+        <name>Women in Technology Scholarship</name>
+
+        <provider>Women Technology Foundation</provider>
+
+        <minPercentage>70</minPercentage>
+
+        <maxIncome>600000</maxIncome>
+
+        <course>BE</course>
+
+        <department>CSE</department>
+
+        <community>ALL</community>
+
+        <gender>Female</gender>
+
+        <benefit>40000</benefit>
+
+        <description>
+            Scholarship supporting women pursuing
+            Computer Science and Technology.
+        </description>
+
+    </scholarship>
+
+
+    <scholarship>
+
+        <id>4</id>
+
+        <name>MBC Education Support Scholarship</name>
+
+        <provider>Social Welfare Foundation</provider>
+
+        <minPercentage>50</minPercentage>
+
+        <maxIncome>400000</maxIncome>
+
+        <course>BE</course>
+
+        <department>ALL</department>
+
+        <community>MBC</community>
+
+        <benefit>25000</benefit>
+
+        <description>
+            Educational support for MBC students
+            from eligible income groups.
+        </description>
+
+    </scholarship>
+
+
+    <scholarship>
+
+        <id>5</id>
+
+        <name>Future Engineers Scholarship</name>
+
+        <provider>Future Engineers Foundation</provider>
+
+        <minPercentage>75</minPercentage>
+
+        <maxIncome>700000</maxIncome>
+
+        <course>BE</course>
+
+        <department>ALL</department>
+
+        <community>ALL</community>
+
+        <benefit>35000</benefit>
+
+        <description>
+            Scholarship for engineering students
+            with good academic performance.
+        </description>
+
+    </scholarship>
+
+
+    <scholarship>
+
+        <id>6</id>
+
+        <name>Special Support Scholarship</name>
+
+        <provider>Inclusive Education Foundation</provider>
+
+        <minPercentage>50</minPercentage>
+
+        <maxIncome>500000</maxIncome>
+
+        <course>ALL</course>
+
+        <department>ALL</department>
+
+        <community>ALL</community>
+
+        <disability>Yes</disability>
+
+        <benefit>45000</benefit>
+
+        <description>
+            Financial support for students with
+            disabilities pursuing higher education.
+        </description>
+
+    </scholarship>
+
+</scholarships>
