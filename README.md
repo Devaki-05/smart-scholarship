@@ -1,10 +1,15 @@
 # Smart Scholarship Eligibility & Recommendation System
 
-A web-based scholarship management system that helps students identify suitable scholarships based on their academic performance, income, course, department, community, gender, and disability status.
+## Project Overview
+
+The Smart Scholarship Eligibility & Recommendation System is a web-based application that helps students identify scholarships they may be eligible for. It analyzes academic performance, annual family income, course, department, community, gender, and disability status to recommend suitable scholarships.
+
+The system also supports online scholarship applications, application status tracking, student reports, and an admin dashboard for managing students and reviewing applications.
 
 ## Features
 
 ### Student Module
+
 - Student registration and login
 - Student profile management
 - Automatic scholarship eligibility checking
@@ -14,6 +19,7 @@ A web-based scholarship management system that helps students identify suitable 
 - Student report generation
 
 ### Admin Module
+
 - Secure admin login
 - Admin dashboard with statistics
 - Student management
@@ -37,25 +43,27 @@ A web-based scholarship management system that helps students identify suitable 
 
 ## System Workflow
 
+```text
 Student Registration
-↓
+        ↓
 Student Login
-↓
+        ↓
 Profile Creation
-↓
+        ↓
 Eligibility Checking
-↓
+        ↓
 Scholarship Recommendation
-↓
+        ↓
 Application
-↓
+        ↓
 Admin Review
-↓
+        ↓
 Approve / Reject
-↓
+        ↓
 Application Status
-↓
+        ↓
 Report Generation
+```
 
 ## Eligibility Criteria
 
@@ -111,6 +119,8 @@ smart-scholarship/
 ├── my_applications.php
 ├── report.php
 └── logout.php
+```
+
 ## Screenshots
 
 ### Student Dashboard
@@ -124,3 +134,42 @@ smart-scholarship/
 ### Admin Dashboard
 
 ![Admin Dashboard](screenshots/admin-dashboard.png)
+
+## How to Run
+
+1. Install XAMPP.
+2. Start Apache and MySQL/MariaDB.
+3. Place the project inside:
+
+```text
+C:\xampp\htdocs\
+```
+
+4. Create the database using `database.sql`.
+5. Check the database configuration in:
+
+```text
+includes/db.php
+```
+
+6. Open the project in a browser:
+
+```text
+http://localhost/smart-scholarship/
+```
+
+## Future Enhancements
+
+- Email notifications
+- More scholarship providers
+- Online document verification
+- PDF application download
+- Advanced analytics
+- Cloud deployment
+- Mobile-friendly application
+
+## Author
+
+**Devaki A**
+
+Computer Science and Engineering
